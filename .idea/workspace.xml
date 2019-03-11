@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c4fb0c-4ea0-455e-a160-b6c429a192e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/newRecipe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/newUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeProject/RecipeApp/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="55c4fb0c-4ea0-455e-a160-b6c429a192e6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            <state relative-caret-position="280">
+              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -44,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/delete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -53,13 +43,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/newRecipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/user.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -142,9 +132,9 @@
         <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/base.html" />
         <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/index.html" />
         <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/urls.py" />
-        <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/views.py" />
-        <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/delete.html" />
         <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/user.html" />
+        <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/delete.html" />
+        <option value="$PROJECT_DIR$/RecipeProject/RecipeApp/views.py" />
       </list>
     </option>
   </component>
@@ -154,9 +144,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="674" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="33" />
+    <option name="y" value="68" />
     <option name="width" value="968" />
     <option name="height" value="822" />
   </component>
@@ -284,10 +274,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="27" width="968" height="822" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1600" height="824" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1670282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0990991" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -301,7 +290,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32756132" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32756132" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3266187" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,12 +396,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/views.py">
+    <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        <state relative-caret-position="342">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#aside#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -426,24 +415,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/delete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/newRecipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="35" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/templates/RecipeApp/user.html">
+    <entry file="file://$PROJECT_DIR$/RecipeProject/RecipeApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="280">
+          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#aside#0;n#!!top" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

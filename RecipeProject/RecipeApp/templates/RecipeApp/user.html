@@ -1,0 +1,31 @@
+{% extends 'RecipeApp/base.html' %}
+{% load static %}
+{% block content %}
+
+<header>
+    <h1>Your Recipes</h1>
+</header>
+<section>
+    <a href="{% url 'newRecipe' %}"><h3>Add New</h3></a>
+</section>
+
+<aside class="gridContainer">
+{% for meal in recipe %}
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{ meal.imageURL}}" alt="Card image cap">
+        <div class="card-body">
+            <a href="{% url 'editRecipe' meal.id %}" ><h3 class="card-title">{{ meal.meal}}</h3></a>
+            <p class="card-text">{{ meal.description}}</p>
+            <p class="card-text">{{ meal.creator}}</p>
+            <p class="card-text">{{ meal.directions}}</p>
+            <p class="card-text">{{ meal.ingredients}}</p>
+            <a href="{% url 'delete' meal.id %}"> <p class="card-text">Delete</p></a>
+            <hr/>
+        </div>
+    </div>
+
+
+
+{% endfor %}
+</aside>
+{% endblock content %}

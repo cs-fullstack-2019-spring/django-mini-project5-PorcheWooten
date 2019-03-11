@@ -1,0 +1,13 @@
+{% extends 'RecipeApp/base.html' %}
+{% block content %}
+<h2>Are you sure you want to delete?</h2>
+<form method="post">
+    {% csrf_token %}
+    <!--TO DISPLAY THE GAME SELECTED FOR DELETION-->
+    Delete, {{ selectedmeal }} ?
+    <input type="submit" value="Delete">
+    <!--RETURN TO INDEX-->
+    <a href="{% url 'user' %}"><button>Cancel</button></a>
+
+</form>
+{% endblock content %}

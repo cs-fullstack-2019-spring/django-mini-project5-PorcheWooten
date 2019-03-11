@@ -1,0 +1,11 @@
+{% extends 'RecipeApp/base.html' %}
+
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    {{ new_recipe.as_p}}
+
+
+    <input type="submit" value="Submit">
+</form>
+{% endblock content %}

@@ -1,0 +1,24 @@
+{% extends 'RecipeApp/base.html' %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<h2>Welcome, {{ user.username }}</h2>
+
+
+<!--TO DIRECT TO LOGOUT ROUTE-->
+<p><a href="{% url 'logout' %}">LOGOUT</a></p>
+
+{% else %}
+<h1>WELCOME!</h1>
+<!--&lt;!&ndash;LINK TO CREATE USER;it created a Person instead-->
+<a href="{% url 'newUser' %}"><p>CREATE NEW USER</p></a>
+<p>or</p>
+<a href="{% url 'login' %}"><p>LOG IN</p></a>
+
+{% endif %}
+
+
+
+{% endblock content %}
+

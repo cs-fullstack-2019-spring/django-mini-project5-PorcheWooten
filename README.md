@@ -34,3 +34,5 @@ The profile page should allow you to edit the logged in users:
 
 ## Challenge
 Include a delete button
+<hr>
+2 points. Don't have all recipes shown on the page, edit recipe doesn't populate fields, when edit recipe is submitted it creates a new page. No log out button.
